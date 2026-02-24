@@ -18,7 +18,7 @@ body {
   background: var(--white)
 }
 
-.tp1 {
+.desktop-tp1 {
   /* desktop/text-preset-1 */
   /* black */
   font-weight: 900;
@@ -28,7 +28,7 @@ body {
   color: #28283D;
 }
 
-.tp2 {
+.desktop-tp2 {
   /* desktop/text-preset-2 */
   /* black */
   font-weight: 900;
@@ -37,7 +37,7 @@ body {
   color: #28283D;
 }
 
-.tp3 {
+.desktop-tp3 {
   /* desktop/text-preset-3 */
   /* black */
   font-weight: 900;
@@ -49,7 +49,7 @@ body {
   color: #4D96A9;
 }
 
-.tp4 {
+.desktop-tp4 {
   /* desktop/text-preset-4 */
   /* medium */
   font-weight: 500;
@@ -59,11 +59,38 @@ body {
   color: #28283D;
 }
 
-.tp5 {
+.desktop-tp5 {
   /* desktop/text-preset-5 */
+  /* black */
   font-weight: 900;
   font-size: 16px;
   line-height: 150%;
   /* identical to box height, or 24px */
   color: #28283D;
 }
+
+/* .tablet */
+/* size/line-height/letter-spacing */
+/* 48/110/0 */
+/* 36/110/0 */
+/* 14/110/4 */
+/* 16/150/0 */
+
+/* .mobile  */
+/* size/line-height/letter-spacing */
+/* 40/110/0 */
+/* 32/110/0 */
+/* 32/110/4 */
+
+/* spacing */
+/* 50    -  4px */
+/* 100   -  8px */
+/* 200   - 16px */
+/* 300   - 24px */
+/* 400   - 32px */
+/* 500   - 40px */
+/* 700   - 56px */
+/* 800   - 64px */
+/* 900   - 72px */
+/* 1000  - 80px */
+/* 1400  - 112px*/
