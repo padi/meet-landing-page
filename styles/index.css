@@ -15,7 +15,7 @@
 }
 
 body {
-  background: var(--white)
+  background: var(--white);
 }
 
 .meet-logo {
@@ -79,11 +79,28 @@ body {
     padding-block: 1em;
     padding-inline: 2.5em;
     border-radius: 29px;
+    border: 0;
+
+    color: var(--white);
+
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
   }
 
-  >.button.-primary {}
+  >.button {
+    >.version {
+      color: var(--cyan-300);
+    }
+  }
 
-  >.button.-secondary {}
+  >.button.-primary {
+    background: var(--cyan-600);
+  }
+
+  >.button.-secondary {
+    background: var(--purple-600);
+  }
 }
 
 .desktop-tp1 {
