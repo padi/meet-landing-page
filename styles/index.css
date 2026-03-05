@@ -42,9 +42,12 @@ body {
   }
 
   >.textbox {
+    padding-inline: 2.25em;
+
     display: flex;
     flex-direction: column;
-    padding-inline: 2.25em;
+    align-items: center;
+    gap: 1.5em;
 
     >.headline {
       text-align: center;
