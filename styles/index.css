@@ -58,6 +58,7 @@ body {
     color: var(--slate-600);
   }
 }
+
 .desktop-tp1 {
   /* desktop/text-preset-1 */
   /* black */
@@ -121,6 +122,33 @@ body {
 /* 40/110/0 */
 /* 32/110/0 */
 /* 32/110/4 */
+
+.mobile-tp1 {
+  /* black */
+  font-weight: 900;
+  font-size: 40;
+  line-height: 110%;
+  color: #28283D;
+}
+
+.mobile-tp2 {
+  /* black */
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 110%;
+  color: #28283D;
+}
+
+.mobile-tp3 {
+  /* black */
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 110%;
+  /* identical to box height, or 18px */
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4D96A9;
+}
 
 /* spacing */
 /* 50    -  4px */
