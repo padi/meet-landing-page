@@ -66,11 +66,24 @@ body {
       color: var(--slate-600);
     }
 
-    >.ctas-box {
-      display: flex;
-      flex-direction: column;
-    }
   }
+}
+
+.ctas-box {
+  display: flex;
+  gap: 1em;
+  flex-direction: column;
+  align-items: center;
+
+  >.button {
+    padding-block: 1em;
+    padding-inline: 2.5em;
+    border-radius: 29px;
+  }
+
+  >.button.-primary {}
+
+  >.button.-secondary {}
 }
 
 .desktop-tp1 {
