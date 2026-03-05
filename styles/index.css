@@ -18,6 +18,46 @@ body {
   background: var(--white)
 }
 
+.meet-logo {
+  padding-block-start: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* todo removeme later before submitting */
+  /* >.link {} */
+  /* >.image {} */
+}
+
+.hero-section {
+  padding-block-start: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  >.image {
+    height: 160px;
+    margin-block-end: 4em;
+  }
+
+  >.headline {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 110%;
+    color: var(--slate-900);
+  }
+
+  >.lead {
+    text-align: center;
+    /* medium */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--slate-600);
+  }
+}
 .desktop-tp1 {
   /* desktop/text-preset-1 */
   /* black */
