@@ -41,21 +41,32 @@ body {
     margin-block-end: 4em;
   }
 
-  >.headline {
-    text-align: center;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 110%;
-    color: var(--slate-900);
-  }
+  >.textbox {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 2.25em;
 
-  >.lead {
-    text-align: center;
-    /* medium */
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--slate-600);
+    >.headline {
+      text-align: center;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 110%;
+      color: var(--slate-900);
+    }
+
+    >.lead {
+      text-align: center;
+      /* medium */
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      color: var(--slate-600);
+    }
+
+    >.ctas-box {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
